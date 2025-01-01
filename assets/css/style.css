@@ -386,7 +386,7 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  background-color: var(--eerie-black-1);
+  background-image: url("../images/hero.jpg");
   color: var(--white);
   min-height: 700px;
   padding-block: 120px 60px;
@@ -1735,3 +1735,84 @@ body {
   font-family: "Poppins", sans-serif;
   color: #151515;
 }
+.testimonials {
+  padding: 100px 0px;
+}
+
+.testimonials .title h1::before {
+  left: 30%;
+}
+
+.testimonials-content {
+  position: relative;
+  overflow: hidden;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.testimonials-box {
+  float: left;
+  transition: margin 1s ease;
+}
+
+.testimonials-img {
+  background-color: #fff;
+  margin-bottom: 15px;
+  border: 1px solid #0CDFED;
+  padding: 40px 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: nowrap;
+  float: left;
+  width: 100%;
+}
+
+.test-img {
+  flex: 0 0 118px;
+  max-width: 118px;
+}
+
+.test-img img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.testimonials-text p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  margin: 0;
+}
+
+.testimonials-text h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin: 10px 0 5px;
+}
+
+.slider {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.slider div {
+  height: 15px;
+  width: 15px;
+  background-color: #0CDFED;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px 6px;
+  cursor: pointer;
+}
+
+.slider div.active {
+  background-color: #fff;
+
+}
+
+
