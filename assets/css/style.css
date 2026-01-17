@@ -1758,7 +1758,7 @@ body {
 .testimonials-img {
   background-color: #fff;
   margin-bottom: 15px;
-  border: 1px solid #0CDFED;
+  border: 1px solid #fff;
   padding: 40px 20px;
   border-radius: 4px;
   display: flex;
@@ -1802,7 +1802,7 @@ body {
 .slider div {
   height: 15px;
   width: 15px;
-  background-color: #0CDFED;
+  background-color: #0b05ad;
   border: 1px solid #000;
   border-radius: 50%;
   display: inline-block;
