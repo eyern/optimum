@@ -386,7 +386,7 @@ body {
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/optimum.jpg");
+  background-image: url("../images/hero.jpg");
   color: var(--white);
   min-height: 700px;
   padding-block: 120px 60px;
@@ -1295,7 +1295,7 @@ body {
    */
 
   .hero {
-    background-image: url("../images/optimum.jpg");
+    background-image: url("../images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
